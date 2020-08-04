@@ -2,7 +2,8 @@ li{
     display:inline;
     padding:30px;
     font-size: 15px;
-    color: white;
+    color:#ffffff;
+    font-weight: bold;
 }
 a:hover{
     color:yellow;
@@ -22,11 +23,33 @@ ul{
     margin-left:650px;
 }
 body{
-    background-image: url("https://images.unsplash.com/photo-1510852151262-05bfbfbe996d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-image: url("https://cdn.wallpapersafari.com/58/75/PTrcfz.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 80%;
     width: 100%;
     opacity: 0.5;
+    
+}
+.mouse{
+     padding:5%;
+     padding-top: 80px;
+     margin-left: 250px;
+     
+}
+.para{
+    color:white;
+    
+    padding-top: 200px;
+    margin-left:450px;
+    font-size:50px;
+}
+.pari{
+    color:white;
+    
+    padding-top: 180px;
+    margin-left:300px;
+    font-size:20px;
+    padding:0.5px;
     
 }
