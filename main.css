@@ -1,3 +1,4 @@
+* { margin: 0; padding: 0; border: none; }
 li{
     display:inline;
     padding:30px;
@@ -12,37 +13,36 @@ ul{
     padding:0;
     overflow: hidden;
     position: fixed;
-    top: 4%;
     width: 100%;
     margin-left:650px;
 }
-body{
+.get{
     background-image: url("https://cdn.wallpapersafari.com/58/75/PTrcfz.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50%;
+    background-position: relative;
+    height: 650px;
     width: 100%;
-   
-    
 }
 .mouse{
      padding:5%;
-     padding-top: 80px;
+     padding-top: 60px;
      margin-left: 250px;
      
 }
 .para{
     color:white;
-    
-    padding-top: 200px;
-    margin-left:450px;
+    padding-top: 300px;
+    margin-left:50px;
     font-size:50px;
+    text-align: center;
 }
 .pari{
     color:white;
+    text-align: center;
     
-    padding-top: 180px;
-    margin-left:300px;
+    padding-top: 230px;
+    margin-left:50px;
     font-size:20px;
     padding:0.5px;
     
@@ -68,7 +68,7 @@ nav ul li a:after {
     position: absolute;
     display: block;
     bottom: 0;
-    left: -100%;
+    left: -120%;
     height: 5px;
     width: 100%;
     background: yellow;
@@ -83,27 +83,3 @@ nav ul li a:hover:after {
 h1{
         color: yellow;
 }
-
-@media only screen and (max-width: 600px) {
-    .para .pari{
-      width:100%;
-    }
-  }
-  @media only screen and (max-width: 600px) {
-    .mouse{
-      width:100%;
-      height: 100%;
-    }
-  }
-  @media only screen and (max-width: 767px) {
-    nav ul{
-
-        flex-direction: column;
-        position: fixed;
-       
-        display: inline inline-block;
-      
-  }
-}
-  
-  
