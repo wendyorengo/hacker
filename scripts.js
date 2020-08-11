@@ -1,6 +1,6 @@
-$(document).ready(function(){
-    $(".img").click(function(){
-        $(".para").toggle();
- });
+// $(document).ready(function(){
+//     $(".img").click(function(){
+//         $(".para").toggle();
+//  });
 
-})
+// })
