@@ -71,7 +71,7 @@ nav ul li a:after {
     left: -120%;
     height: 5px;
     width: 100%;
-    background: yellow;
+    background: #5b43d6;
     transition: .5s ease all;
     }
 
@@ -91,9 +91,58 @@ color: yellow;
   
   .p1{
     color:black;
-    font-size:40px;
+    font-size:20px;
     text-align: center;
 }
+
+footer{
+  background-color:#4f467e;
+  height: 200px;
+  margin-top: 25px;;
+}
+footer p,h2{
+  text-align: center;
+ 
+  color: white;
+}
+
+h2{
+  padding-top:20px;
+}
+.row{
+  margin-top: 30px;
+  
+}
+h4{
+  text-transform: uppercase;
+  color: #5b43d6;
+  margin-top: 30px;
+  font-family: 'Raleway';
+}
+p{
+  font-family: 'Raleway';
+  font-size: 16px;
+}
+.fa-laptop{
+  margin-left: 20px;
+}
+.lap-text{
+  margin-left: 20px;
+}
+.fa-code{
+  margin-left: 50px;
+}
+.fa-mobile{
+  margin-left: 80px;
+}
+i{
+  margin-bottom: 20px;
+}
+.projects{
+  text-align: center;
+  margin-top: 20px;
+}
+
   
 @media only screen and (max-width: 600px) {
     .para .pari .mouse {
@@ -101,3 +150,4 @@ color: yellow;
       width:100px;
     }
   }
+  
