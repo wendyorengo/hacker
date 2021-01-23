@@ -1,153 +1,195 @@
-* { margin: 0; padding: 0; border: none; }
-li{
-    display:inline;
-    padding:30px;
-    font-size: 15px;
-    color:#ffffff;
-    font-weight: bold;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+li {
+  display: inline;
+  padding: 30px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
 }
 
-ul{
-    float:left;
-    margin: 0;
-    padding:0;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    margin-left:650px;
+ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  margin-left: 650px;
 }
-.get{
-    background-image: url("https://cdn.wallpapersafari.com/58/75/PTrcfz.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: relative;
-    height: 660px;
-    width: 100%;
+.get {
+  background-image: url("https://www.potentash.com/wp-content/uploads/2015/08/sexualabuse-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  margin: 0 auto;
+  height: 660px;
 }
-.mouse{
-     padding:5%;
-     padding-top: 60px;
-     margin-left: 250px;
-     
+#about {
+  width: 90%;
+  margin: 0 auto;
 }
-.para{
-    color:white;
-    padding-top: 300px;
-    margin-left:50px;
-    font-size:50px;
-    text-align: center;
+.body {
+  background-color: #e3e1e1;
 }
-.pari{
-    color:white;
-    text-align: center;
-    
-    padding-top: 230px;
-    margin-left:50px;
-    font-size:20px;
-    padding:0.5px;
-    
+.text-solution {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.tape2 {
+  margin-left: 100px;
+}
+.mouse {
+  padding: 5%;
+  padding-top: 60px;
+  margin-left: 250px;
+}
+.para {
+  color: white;
+  padding-top: 300px;
+  margin-left: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+.pari {
+  color: white;
+  text-align: center;
+
+  padding-top: 230px;
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 0.5px;
 }
 
 nav ul li a {
-
-    display: inline-block;
-    font-weight: bold;
-    font-size: 14px;
-    height: 50px;
-    color: #fff;
-    text-transform: uppercase;
-    overflow-x: hidden;
-    position: relative;
-    transition: .25s ease all;
-    text-decoration: none;
-    line-height: 45px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+  height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  overflow-x: hidden;
+  position: relative;
+  transition: 0.25s ease all;
+  text-decoration: none;
+  line-height: 45px;
 }
 
 nav ul li a:after {
-    content: " ";
-    position: absolute;
-    display: block;
-    bottom: 0;
-    left: -120%;
-    height: 5px;
-    width: 100%;
-    background: #5b43d6;
-    transition: .5s ease all;
-    }
+  content: " ";
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: -120%;
+  height: 5px;
+  width: 100%;
+  background: #5b43d6;
+  transition: 0.5s ease all;
+}
 
 nav ul li a:hover:after {
-    left: 0;
- }
+  left: 0;
+}
 
-    
-h1{
-color: yellow;
+h1 {
+  color: yellow;
 }
 .column {
-    float: left;
-    width: 33.33%;
-    
-  }
-  
-  .p1{
-    color:black;
-    font-size:20px;
-    text-align: center;
+  float: left;
+  width: 33.33%;
 }
 
-footer{
-  background-color:#4f467e;
-  height: 200px;
-  margin-top: 25px;;
-}
-footer p,h2{
+.p1 {
+  color: black;
+  font-size: 20px;
   text-align: center;
- 
+}
+
+footer {
+  background-color: #4f467e;
+  margin-top: 25px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+footer p,
+h2 {
+  text-align: center;
+
   color: white;
 }
 
-h2{
-  padding-top:20px;
+h2 {
+  padding-top: 20px;
 }
-.row{
+.row {
   margin-top: 30px;
-  
 }
-h4{
+h4 {
   text-transform: uppercase;
   color: #5b43d6;
   margin-top: 30px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
-p{
-  font-family: 'Raleway';
+p {
+  font-family: "Raleway";
   font-size: 16px;
 }
-.fa-laptop{
+.fa-laptop {
   margin-left: 20px;
 }
-.lap-text{
+.lap-text {
   margin-left: 20px;
 }
-.fa-code{
+.fa-code {
   margin-left: 50px;
 }
-.fa-mobile{
+.fa-mobile {
   margin-left: 80px;
 }
-i{
+i {
   margin-bottom: 20px;
 }
-#projects{
+#projects {
   text-align: center;
   margin-top: 20px;
 }
+.text-solution{
+  width: 50%;
+  margin: 40px auto;
+  color: #ab0f31;
+  text-align: left;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+iframe{
+  width: 100%;
+}
+.card{
+  margin: 20px auto;
+}
+.footer-left{
+  float: left;
+  padding: 30px;
+}
+.footer-right{
+  float: right;
+  padding: 30px;
+}
+footer{
+  background-color: #3b3938;
+}
 
-  
 @media only screen and (max-width: 600px) {
-    .para .pari .mouse {
-      font-size: 30px;
-      width:100px;
-    }
+  .para .pari .mouse {
+    font-size: 30px;
+    width: 100px;
   }
-  
+}
