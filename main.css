@@ -10,6 +10,13 @@ li {
   color: #ffffff;
   font-weight: bold;
 }
+.header{
+  background-color: #40826d;
+  text-align: center;
+  height: 90px;
+  padding-top:20px ;
+  font-size: 30px;
+}
 
 ul {
   float: left;
@@ -26,19 +33,17 @@ ul {
   background-size: cover;
   width: 90%;
   margin: 0 auto;
-  height: 660px;
+  height: auto;
+  color: #000;
 }
 #about {
   width: 90%;
   margin: 0 auto;
 }
-.body {
-  background-color: #e3e1e1;
-}
 .text-solution {
   text-align: center;
   margin-top: 20px;
-  font-size: 30px;
+  font-size: 24px;
 }
 .tape2 {
   margin-left: 100px;
@@ -160,9 +165,8 @@ i {
   margin-top: 20px;
 }
 .text-solution{
-  width: 50%;
+  width: 80%;
   margin: 40px auto;
-  color: #ab0f31;
   text-align: left;
 }
 .carousel-inner img {
@@ -183,8 +187,9 @@ iframe{
   float: right;
   padding: 30px;
 }
-footer{
-  background-color: #3b3938;
+#footer{
+  background-color: #40826d;
+  height: 90px;
 }
 
 @media only screen and (max-width: 600px) {
